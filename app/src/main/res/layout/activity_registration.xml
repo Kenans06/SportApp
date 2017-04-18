@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/take7"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Registratie"
+        android:textAlignment="center"
+        android:textColor="#e30000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+   <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/border_buttons"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@null"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textSize="14sp"
+       android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/border_buttons"
+        android:hint="Email"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textSize="14sp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/border_buttons"
+        android:hint="Wachtwoord"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textSize="14sp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+    <EditText
+        android:id="@+id/passwordVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.15"
+        android:background="@drawable/border_buttons"
+        android:hint="Wachtwoord bevestigen"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textSize="14sp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginbutton"
+        android:textAllCaps="false"
+        android:text="Aanmaken"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+    <TextView
+        android:id="@+id/backToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:text="Terug naar login scherm"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#001296"
+        android:textSize="14sp"
+        android:onClick="goToAlert"
+        android:fontFamily="fonts/Roboto-Regular.ttf"/>
+
+
+
+
+
+
+</LinearLayout>
