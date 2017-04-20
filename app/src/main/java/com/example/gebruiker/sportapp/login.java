@@ -33,27 +33,27 @@ public class login extends AppCompatActivity {
                 .requestEmail()
                 .build();
 
-        // Font path
+        //Font path
         //String fontPath = "fonts/Roboto-Regular.ttf";
 
         // text view label
         TextView wrongPassword = (TextView) findViewById(R.id.wrongPassword);
         EditText email = (EditText) findViewById(R.id.emailInput);
-        EditText wachtwoord = (EditText) findViewById(R.id.passwordInput);
+        EditText password = (EditText) findViewById(R.id.passwordInput);
         final Button login = (Button) findViewById(R.id.loginNormal);
         Button loginGoogle = (Button) findViewById(R.id.loginGoogle);
         Button loginGuest = (Button) findViewById(R.id.loginGuest);
         TextView noAccount = (TextView) findViewById(R.id.noAccount);
 
-        // Loading Font Face
+        //Loading Font Face
         //Typeface tf = Typeface.createFromAsset(getAssets(), fontPath);
 
-        // Applying font
+        //Applying font
         //login.setTypeface(tf);
         //loginGoogle.setTypeface(tf);
         //wrongPassword.setTypeface(tf);
         //email.setTypeface(tf);
-        //wachtwoord.setTypeface(tf);
+        //password.setTypeface(tf);
         //loginGuest.setTypeface(tf);
         //noAccount.setTypeface(tf);
 
